@@ -813,7 +813,7 @@ class BottomPicker extends StatefulWidget {
       builder: (context) {
         return Padding(
           padding: EdgeInsets.only(
-            bottom: MediaQuery.of(context).viewInsets.bottom + 50,
+            bottom: MediaQuery.of(context).viewInsets.bottom,
           ),
           child: BottomSheet(
             backgroundColor: Colors.transparent,
