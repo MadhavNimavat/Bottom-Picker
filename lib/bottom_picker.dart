@@ -811,10 +811,7 @@ class BottomPicker extends StatefulWidget {
       ),
       backgroundColor: Colors.transparent,
       builder: (context) {
-        return Padding(
-          padding: EdgeInsets.only(
-            bottom: MediaQuery.of(context).viewInsets.bottom,
-          ),
+        return SafeArea(
           child: BottomSheet(
             backgroundColor: Colors.transparent,
             enableDrag: false,
